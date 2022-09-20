@@ -255,7 +255,8 @@ int main(void) {
   
   paulo == renata ? printf("A eleição foi um empate") : paulo > renata ? puts("Paulo foi eleito") : puts("Renata foi eleita");
 
-  printf("%.2f%% dos votos foram de Paulo \n%.2f%% dos votos foram de Renata \n%.2f%% dos votos foram em branco \n%.2f%% dos votos foram nulos", paulo/total*100, renata/total*100, branco/total*100, nulo/total*100);
+  printf("%.2f%% dos votos foram de Paulo \n%.2f%% dos votos foram de Renata \n%.2f%% dos votos foram 
+  em branco \n%.2f%% dos votos foram nulos", paulo/total*100, renata/total*100, branco/total*100, nulo/total*100);
   return 0;
 }
    ```
